@@ -1,0 +1,42 @@
+title: Practical AI Course
+description: Welcome to the official course resource hub! Right now, you’ll find essential materials, links and links to support your learning. But we’re just getting started—over time, we’ll be adding FAQs, troubleshooting guides, bonus content, and more based on your feedback. Check back often, and if you have any questions or suggestions, let us know!
+theme: just-the-docs
+
+url: https://luca-alessi.github.io/practical-ai-course
+
+nav_enabled: true
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  # theme test code
+  - fixtures/
